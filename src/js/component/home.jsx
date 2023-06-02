@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
-import Form from "./form.jsx";
 import Cards from "./cards.jsx";
 import Footer from "./footer.jsx";
 
@@ -20,12 +19,12 @@ const Home = () => {
 					button={"Find out more!"} 
 					url1={"https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"} 
 					content1={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium porta ipsum ultricies semper. Morbi eu luctus lacus. Vivamus aliquam non nisi nec luctus. Sed convallis lectus et nisi lacinia."}
-					url2={"https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"} 
-					content2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium porta ipsum ultricies semper. Morbi eu luctus lacus. Vivamus aliquam non nisi nec luctus. Sed convallis lectus et nisi lacinia."}
-					url3={"https://fastly.picsum.photos/id/7/4728/3168.jpg?hmac=c5B5tfYFM9blHHMhuu4UKmhnbZoJqrzNOP9xjkV4w3o"} 
-					content3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium porta ipsum ultricies semper. Morbi eu luctus lacus. Vivamus aliquam non nisi nec luctus. Sed convallis lectus et nisi lacinia."}
+					url2={"https://fastly.picsum.photos/id/39/3456/2304.jpg?hmac=cc_VPxzydwTUbGEtpsDeo2NxCkeYQrhTLqw4TFo-dIg"} 
+					content2={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at elit ante. Nullam et massa aliquam ipsum convallis laoreet. Nullam aliquet pulvinar libero, at porta."}
+					url3={"https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM"} 
+					content3={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas quam a mauris semper, quis lacinia lacus bibendum. Maecenas condimentum euismod dui quis dignissim. Donec ac nibh ut erat elementum aliquet. Sed efficitur molestie lacus, et consequat orci sagittis sit."}
 			/>
-			<Footer/>
+			<Footer footerText={"Copyright © myfirst React Website 2023"}/>
 		</div>
 	);
 };
